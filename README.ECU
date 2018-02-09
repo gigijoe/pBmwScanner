@@ -1,0 +1,19 @@
+#
+# Decode PRG or GRP file to b1v.
+#
+
+cd MRK24ECU/
+
+#
+# DME ME7.2
+#
+
+wine64 BESTDIS.exe ../Ecu/ME72KWP1.PRG ME72KWP1.b1v
+
+#
+# EGS 5HP24 - GS.8.60.2
+#
+
+wine64 BESTDIS.exe ../Ecu/GS8602.PRG GS8602.b1v
+
+

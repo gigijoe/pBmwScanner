@@ -1,4 +1,4 @@
-# BMW Coding
+# pBmwScanner 
 
 The software is diagnostic scan tool for BMW E38/E39. It still under development.
 It reads engine & transmission real-time information and DTC (Diagnostic Trouble Code)
@@ -20,10 +20,13 @@ MS41/43 is there but NOT tested ...
 
 Connect K+DCAN with PC notebook and 20 pin round connector. Ignition On then run
 
-$ cd bmw-coding
-$ python ./ds2.py
+$ cd pBmwScanner
+$ python ./scanner.py
 
+## ECU simulator
 
+$ cd pBmwScanner
+$ python ./ecu.py
 
 
 
